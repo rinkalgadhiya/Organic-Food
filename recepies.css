@@ -1,0 +1,125 @@
+body
+{
+	margin: 0px;
+}
+
+.headtitle
+{
+	font-size: 70px;
+	font-family: ASTRO;
+	color: gray;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 50px;
+}
+
+.headtext
+{
+	font-size: 30px;
+	font-family: Arial Unicode MS;
+	color: gray;
+	font-weight: bold;
+	margin: 20px 0px 0px 100px;
+}
+
+.headimg
+{
+	margin-left: 280px;
+	margin-top: -250px;
+	z-index: 1;
+}
+
+.mainbox
+{
+	display: grid;
+	grid-template-rows: 9% 9% 9% 9% 9% 9% 9% 9% 9% 9% 9% 9%;
+	grid-gap: 30px;
+}
+
+.box
+{
+	width: 1250px;
+	height: 650px;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-top: 100px;
+	background-color: cornsilk;
+}
+
+.imghead
+{
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;
+	height: 400px;
+	width: 480px;
+}
+
+.headspan
+{
+	color: green;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.subtext
+{
+	margin: 30px 0px 0px 100px;
+	font-size: 20px;
+	font-family: Cambria Math;
+}
+
+ul
+{
+	margin-left: 80px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-family: Arial Unicode MS;
+	color: black;
+}
+
+.recname
+{
+	background-color: coral;
+	padding: 10px 535px 10px 535px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+.recimg
+{
+	height: 400px;
+	width: 600px;
+	padding: 30px;
+	border-radius: 40px;
+	float: right;
+	margin: -400px 0px 0px;
+}
+
+.rectitle
+{
+	font-size: 20px;
+	font-family: Arial Unicode MS;
+	font-weight: bold;
+	margin: 0px 0px 0px 100px;
+}
+
+.recbtn
+{
+	background: none;
+	color: coral;
+	text-decoration: none;
+	border: 1px solid coral;
+	border-radius: 5px;
+	padding: 10px 50px 10px 50px;
+	margin-left: 100px;
+}
+
+.recbtn:hover
+{
+	background-color: coral;
+	color: white;
+	transition: 0.5s;
+}

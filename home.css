@@ -1,0 +1,552 @@
+body
+{
+	background-color: white;
+	margin: 0px;
+}
+
+.headback
+{
+	padding-top: 100px;
+	flex-wrap: wrap;
+}
+
+.menuback
+{
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.logo
+{
+	margin: -50px 0px 0px 0px;
+	height: 150px;
+	widows: 150px;
+	border-radius: 50%;
+	position: fixed;
+}
+
+.headimg
+{
+	float: right;
+	margin-top: 50px;
+	height: 400px;
+	width: 600px;
+
+}
+
+.menu
+{
+	display: flex;
+	margin-left: 480px;
+	cursor: pointer;
+	flex-wrap: wrap;
+	text-align: center;
+	position: fixed;
+}
+
+.heada
+{
+	background-color: none;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 20px;
+	color: black;
+	border: none;
+	width: 100px;	
+}
+
+.heada:hover
+{
+	border-bottom: 2px solid coral;
+	padding-bottom: 3px;	
+}
+
+.leavehead
+{
+	width: 100px;
+	height: 100px;
+	margin: -130px 0px 0px 280px;
+	transform: rotate(5deg);
+	z-index: 0;
+	flex-wrap: wrap;
+}
+
+.anlast
+{
+	background-color: coral;
+	color: whitesmoke;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+.anlast:hover
+{
+	background-color: cornsilk;
+	color: coral;
+	border: 1px solid;
+	transition: 0.5s;
+}
+
+.learn
+{
+	background-color: coral;
+	color: whitesmoke;
+	font-size: 15px;
+	font-family: Arial;
+	border-radius: 5px;
+	margin-left: 170px;
+	padding: 10px 40px 10px 40px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+.learn:hover
+{
+	background-color: cornsilk;
+	color: coral;
+	border: 1px solid;
+	transition: 0.5s;
+}
+
+.heading
+{
+	font-family: Edwardian Script ITC;
+	color: gray;
+	font-size: 80px;
+	margin: 100px 0px 0px 150px;
+}
+
+.headcon
+{
+	color: black;
+	margin: 30px 0px 0px 170px;
+	font-size: 20px;
+}
+
+.headbtn
+{
+	background-color: coral;
+	color: white;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 30px 0px 0px 170px;
+	cursor: pointer;
+	border: none;
+}
+
+.img1
+{
+	margin: 100px 0px 0px 0px;
+	height: 600px;
+	float: left;
+	width: 600px;
+}
+
+.ingre
+{
+	font-size: 35px;
+	margin-top: 250px;
+	flex-wrap: wrap;
+}
+
+.ingrecon
+{
+	font-size: 20px;
+	margin: 30px 0px 0px 600px;
+	flex-wrap: wrap;
+}
+
+.ingrebtn
+{
+	background-color: palegreen;
+	padding: 10px 40px 10px 40px;
+	margin: 50px 0px 0px 0px;
+	cursor: pointer;
+	color:black;
+	float: left;
+	flex-wrap: wrap;
+	font-family: Cambria Math;
+}
+
+.ingrebtn:hover
+{
+	background-color: white;
+	color: black;
+	border: 1px solid lightgreen;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.middle
+{
+	height: 700px;
+	width: 500px;
+	transform: rotate(270deg);
+	margin: 100px 0px 0px 720px;
+}
+
+.linein
+{
+	background-color: coral;
+	height: 100px;
+	width: 500px;
+	margin: 350px 0px 100px 0px;
+	border-radius: 0px 500px 500px 0px;
+	flex-wrap: wrap;
+}
+
+.lineout
+{
+	background-color: darkcyan;
+	height: 100px;
+	width: 500px;
+	float: right;
+	margin-top: 100px;
+	border-radius: 0px 500px 500px 0px;
+	transform: rotate(180deg);
+	flex-wrap: wrap;
+}
+
+.organicimg
+{
+	height: 300px;
+	width: 400px;
+	border-radius: 100%;
+	margin:-50px 0px 50px 100px;
+}
+
+.organic
+{
+	font-size: 20px;
+	margin: -300px 0px 0px 650px;
+}
+
+.ingrebtn2
+{
+	background-color: palegreen;
+	width: 150px;
+	margin: 30px 0px 0px 650px;
+	cursor: pointer;
+	padding: 10px 40px 10px 40px;
+	cursor: pointer;
+	color:black;
+	font-family: Cambria Math;
+}
+
+.ingrebtn2:hover
+{
+	background-color: white;
+	color: black;
+	border: 1px solid lightgreen;
+	transition: 0.5s;
+	padding: 10px 40px 10px 40px;
+	margin: 0px 0px 0px 650px;
+	cursor: pointer;
+}
+
+.backbox
+{
+	width: 1110px;
+	height: 500px;
+	padding: 20px 20px 20px 20px;
+	margin: 350px 0px 100px 100px;
+}
+
+.h1
+{
+	font-family: Arial Unicode MS;
+	color: gray;
+}
+
+.first
+{
+	color: seagreen;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.freshtext
+{
+	font-size: 18px;
+	font-family: Cambria Math;
+}
+
+.img
+{
+	width: 30px;
+	height: 30px;
+}
+
+.rgtext
+{
+	margin: -145px 0px 0px 70px;
+	line-height: 25px;
+	font-family: Arial;
+}
+
+.proimg
+{
+	width: 600px;
+	height: 400px;
+	margin-top: -370px;
+	float: right;
+	flex-wrap: wrap;
+}
+
+.apro1
+{
+	text-decoration: none;
+	background-color: lightgreen;
+	color: black;
+	border-radius: 5px;
+	padding: 10px 40px 10px 40px;
+	margin-right: 20px;
+}
+
+.apro2
+{
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid lightgreen;
+	padding: 10px 40px 10px 40px;
+}
+
+.apro2:hover
+{
+	text-decoration: none;
+	color: black;
+	background-color: lightgreen;
+	border-radius: 5px;
+	transition: 0.5s;
+	padding: 10px 40px 10px 40px;
+}
+
+.cathead
+{
+	margin-left: 60px;
+	margin-bottom: 50px;
+	font-family: Arial Unicode MS;
+}
+
+.span
+{
+	color: lightgreen;
+}
+
+.gallbox
+{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	margin-bottom: 50px;
+	margin-left: 60px;
+	flex-wrap: wrap;
+}
+
+.gall
+{
+	width: 200px;
+	height: 220px;
+	background-color: cornsilk;
+	text-align: center;
+}
+
+.gall:hover
+{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.catimg
+{
+	width: 150px;
+	height: 150px;
+}
+
+h2
+{
+	font-family: Arial Unicode MS;
+	font-size: 20px;
+}
+
+.btnpro
+{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: coral;
+	font-family: Arial;
+	padding: 10px 100px 10px 100px;
+	flex-wrap: wrap;
+}
+
+.btnpro:hover
+{
+	background: none;
+	border: 1px solid coral;
+	color:	coral;
+	transition: 0.5s;
+}
+
+.main
+{
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	display: grid;
+	grid-template-columns: 130% 130% 120%;
+	margin: 0px 0px 100px 100px;
+	cursor: pointer;
+}
+
+.block
+{
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	font-size: 15px;
+	font-family: Cambria Math;
+	border-bottom: coral solid 3px;
+	border-radius: 0px 0px 15px 15px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.block:hover
+{
+	background-color: coral;
+	color: white;
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	border-radius: 15px 15px 15px 15px;
+	cursor: pointer;
+	text-align: center;
+	transition: 1s;
+}
+
+.gridimg
+{
+	width: 50px;
+	height: 50px;
+}
+
+.gridhead
+{
+	text-align: center;
+	font-size: 25px;
+	margin: 150px 0px 50px 0px;
+	font-family: Arial;
+}
+
+hr
+{
+	width: 200px;
+	height: 5px;
+	border-radius: 20px 2000px 20px 2000px;
+	background-color: coral;
+	border: none;
+}
+
+.footer
+{
+	background-color:coral;
+	height: 300px;
+	margin-top: 200px;
+	flex-wrap: wrap;
+}
+
+.ftrtext
+{
+	font-size: 17px;
+	color: white;
+	font-family:Arial;
+	line-height: 30px;
+	margin:-250px 0px 0px 100px;
+	flex-wrap: wrap;
+
+}
+
+.head
+{
+	font-size: 20px;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+.footermenu
+{
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+	color: white;
+	flex-wrap: wrap;
+}
+
+.qltext
+{
+	margin: -150px 0px 0px 400px;
+	font-size: 17px;
+	line-height: 30px;
+	color: white;
+	font-family:Arial;
+	flex-wrap: wrap;
+}
+
+.pltext
+{
+	margin: -180px 0px 0px 630px;
+	font-size: 17px;
+	line-height: 30px;
+	color: white;
+	font-family:Arial;
+	flex-wrap: wrap;
+}
+
+
+.box
+{
+	background-color: none;
+	color: white;
+	margin: -200px 0px 0px 880px;
+	flex-wrap: wrap;
+}
+
+.feedres
+{
+	margin: 40px 0px 0px 880px;
+	flex-wrap: wrap;
+}
+
+.feedmenu
+{
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	background-color: white;
+	border-radius: 5px;
+	margin-right:15px;
+	font-family: Cambria Math;
+	color: coral;
+	flex-wrap: wrap;
+}
+
+.feedmenu:hover
+{
+	background-color:coral;
+	color: white;
+	border: 1px solid;
+	transition: 0.5s;
+}

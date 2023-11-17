@@ -1,0 +1,57 @@
+body
+{
+	margin: 0px;
+}
+
+.name
+{
+	font-size: 40px;
+	padding: 20px;
+	font-family: Arial Unicode MS;
+	color: gray;
+	text-align: center;
+	margin-top: -200px;
+}
+
+.span
+{
+	color: coral;
+}
+
+.span
+{
+	color: coral;
+	font-weight: bold;
+}
+
+.p1
+{
+	font-size: 18px;
+	padding: 50px 50px 0px 50px;
+	text-align: justify;
+	font-family: Cambria Math;
+}
+
+ul
+{
+	font-size: 18px;
+	padding: 10px 0px 0px 80px;
+	text-align: justify;
+	font-family: Cambria Math;
+	line-height: 30px;
+}
+
+label
+{
+	font-size: 35px;
+	color: gray;
+	font-family: Arial Unicode MS;
+	font-weight: bold;
+}
+
+.usda
+{
+	padding: 30px;
+	width: 400px;
+	height: 400px;
+}

@@ -1,0 +1,98 @@
+body
+{
+	margin: 0px;
+	background: navajowhite;
+	overflow: hidden;
+}
+
+
+.sub
+{
+	float: right;
+	margin-top: -170px;
+	margin-right: 250px;
+
+}
+
+.back
+{
+	background: white;
+	padding: 20px;
+	width: 500px;
+	height: 500px;
+}
+
+h1
+{
+	font-size: 40px;
+	padding-left: 30px;
+	font-family: Proxima Nova;
+}
+
+.p1
+{
+	padding-left: 30px;
+	font-size: 18px;
+	font-family: Proxima Nova;
+}
+
+.img
+{
+	height: 280px;
+	width: 380px;
+	padding: 20px;
+}
+
+h2
+{
+	font-family: Proxima Nova;
+}
+
+.p2
+{
+	font-size: 18px;
+	font-family: Arial;
+}
+
+.gif
+{
+	height: 500px;
+	margin-top: -80px;
+	margin-left: -35px;
+	width: 280px;
+	mix-blend-mode:multiply;
+	z-index: 0;
+}
+
+form
+{
+	margin-top: 20px;
+	font-size: 15px;
+	font-family: Proxima Nova;
+}
+
+input
+{
+	background: none;
+	border-bottom: 2px solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	z-index: 3;
+}
+
+textarea
+{
+	width: 340px;
+	height: 50px;
+}
+
+.btn
+{
+	background-color: cadetblue;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 150px 10px 150px;
+	font-family: Arial;
+}

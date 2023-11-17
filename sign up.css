@@ -1,0 +1,97 @@
+body
+{
+	margin: 0px;
+}
+
+.main
+{
+	height: 500px;
+	width: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.h1
+{
+	font-size: 30px;
+	font-family: Proxima Nova;
+	margin: 50px 0px 0px 80px;
+}
+
+.p1
+{
+	font-size: 18px;
+	font-family: Microsoft Sans Serif;
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+
+.lbl
+{
+	font-size: 25px;
+	font-family: Arial Unicode MS;
+	font-weight: bold;
+}
+
+form
+{
+	margin-left: 80px;
+}
+
+label
+{
+	line-height: 50px;
+	font-size: 18px;
+	font-family: Proxima Nova;
+}
+
+input
+{
+	width: 250px;
+	border-bottom: 2px solid gray;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: black;
+	background-color: white;
+}
+
+.btn
+{
+	background-color: coral;
+	color: white;
+	padding: 10px 105px 10px 105px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 30px;
+}
+
+.sub
+{
+	height: 500px;
+	width: 600px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.h2
+{
+	font-size: 30px;
+	font-family: Proxima Nova;
+	margin: 50px 0px 0px 0px;
+}
+
+
+.p2
+{
+	font-size: 18px;
+	font-family: Microsoft Sans Serif;
+	margin-bottom: 20px;
+}
+
+.login
+{
+	margin-left: 0px;
+}
