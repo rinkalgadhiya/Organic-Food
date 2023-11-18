@@ -1,0 +1,99 @@
+body
+{
+	margin: 0px;
+}
+
+.headtitle
+{
+	font-size: 70px;
+	font-family: ASTRO;
+	color: gray;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 50px;
+}
+
+.headimg
+{
+	margin-left: 280px;
+	margin-top: -250px;
+	z-index: 1;
+}
+
+.cathead
+{
+	margin-left: 60px;
+	font-family: Arial Unicode MS;
+}
+
+.span
+{
+	color: lightgreen;
+}
+
+.heading
+{
+	font-size: 25px;
+	font-family: Arial Unicode MS;
+	background-color: coral;
+	margin-left: 60px;
+	padding: 5px 80px 5px 80px;
+	color: white;
+	border-radius: 5px;
+}
+
+.mainbox
+{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	margin-bottom: 150px;
+	grid-gap: 50px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	flex-wrap: wrap;	
+}
+
+.box
+{
+	width: 200px;
+	height: 250px;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.box:hover
+{
+	width: 200px;
+	height: 250px;
+	padding: 5px;
+	background-color: cornsilk;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.catimg
+{
+	width: 130px;
+	height: 130px;
+	object-fit: contain;
+}
+
+h2
+{
+	font-family: Arial Unicode MS;
+	font-size: 20px;
+}
+
+.btn
+{
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: coral;
+	font-size: 18px;
+	font-family: Arial;
+	padding: 8px 50px 8px 50px;
+	border-radius: 5px;
+}	

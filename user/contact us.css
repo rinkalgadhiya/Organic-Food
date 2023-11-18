@@ -1,0 +1,151 @@
+body
+{
+	margin: 0px;
+}
+
+.contacthead
+{
+	font-family: ASTRO;
+	color: Coral;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0px 0px 0px 30px;
+    padding-top: 50px;
+}
+
+.headtext
+{
+	margin: 20px 0px 0px 100px;
+	font-family: Cambria Math;
+}
+
+.imghead
+{
+	width: 450px;
+	height: 450px;
+	margin: -20px 0px 0px 850px;
+}
+
+
+.frm
+{
+	padding: 10px 10px 10px 10px;
+}
+
+.get
+{
+	font-size: 30px;
+	color: slategray;
+	font-family: Proxima Nova;
+	margin: -440px 0px 0px 100px;
+}
+
+.icon
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 10px 0px 30px 100px;
+	display: grid;
+}
+
+.itext
+{
+	margin: -200px 0px 300px 180px;
+}
+
+.re
+{
+	font-size: 20px;
+	line-height: 50px;
+
+}
+	
+input
+{
+	border-bottom: 2px solid white;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: white;
+	background-color: coral;
+	width: 250px;	
+	margin: 10px 0px 30px 50px;
+}
+
+label
+{
+	width: 150px;	
+	margin-left: 50px;
+}
+
+textarea
+{
+	width: 400px;
+	height: 80px;
+	margin: 10px 0px 0px 50px;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.btn
+{
+	background: none;
+	padding: 10px 50px 10px 50px;
+	border: 1px solid white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	color: white;
+}
+
+.btn:hover
+{
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+	
+}
+
+.back
+{
+    background-color: coral;
+    padding: 50px;
+    height: 600px;
+}
+
+.reqback
+{
+    background-color: white;
+    width: 700px;
+}
+
+.visitbox
+{
+	width: 450px;
+	height: 400px;
+	margin: -620px 0px 0px 800px;
+}
+
+.headvisit
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	font-family: Arial Unicode MS;
+}
+
+.hourbox
+{
+	background-color: gainsboro;
+	color: white;
+	width: 350px;
+	height: 300px;
+	margin: -130px 0px 0px 800px;
+}
+
+.hour
+{
+
+	padding: 20px;
+}
